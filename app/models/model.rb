@@ -1,6 +1,6 @@
 require_relative 'config/environment'
 
-class Dog < Sinatra::Base
+class Model < Sinatra::Base
   
   get '/name'
     @name = Dog.new("rudolph", "mastiff")
