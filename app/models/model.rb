@@ -1,8 +1,8 @@
 class Dog < Sinatra::Base
   
   get '/name' do
-    @name = Dog.new("rudolph", "mastiff", 2)
-    erb :model/index
+    @name = Dog.new
+    Dog.new("")
   end
 
 end
