@@ -1,4 +1,4 @@
-class Model < Sinatra::Base
+class Dog < Sinatra::Base
   
   get '/name' do
     @name = Dog.new("rudolph", "mastiff")
