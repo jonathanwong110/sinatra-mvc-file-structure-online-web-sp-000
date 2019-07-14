@@ -1,8 +1,7 @@
 class Dog < Sinatra::Base
   
-  get '/names' do
-    @names = Dog.all
-    erb :'names/index.html.erb'
+  get '/name' do
+    @name = Dog.new("rudolph")
   end
 
 end
